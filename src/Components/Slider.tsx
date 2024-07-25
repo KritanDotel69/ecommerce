@@ -9,7 +9,7 @@ const slides = [
     id: 1,
     title: "Summer Sale Collections",
     description: "Sale! Up to 50% off!",
-    img: "https://www.pexels.com/photo/portrait-of-beautiful-woman-wearing-summer-clothing-12770336&w=800",
+    img: "https://images.unsplash.com/photo-1563178406-4cdc2923acbc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHN1bW1lciUyMGNsb3RoZXN8ZW58MHx8MHx8fDI%3D",
     url: "/",
     bg: "bg-gradient-to-r from-yellow-50 to-pink-50",
   },
@@ -17,7 +17,7 @@ const slides = [
     id: 2,
     title: "Winter Sale Collections",
     description: "Sale! Up to 50% off!",
-    img: "https://www.pexels.com/photo/photograph-of-a-woman-standing-in-front-of-a-telephone-booth-1524113&w=800",
+    img: "https://images.unsplash.com/photo-1609683028898-e21fc6a8b666?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2ludGVyJTIwY2xvdGhlc3xlbnwwfHwwfHx8Mg%3D%3D",
     url: "/",
     bg: "bg-gradient-to-r from-pink-50 to-blue-50",
   },
@@ -25,11 +25,11 @@ const slides = [
     id: 3,
     title: "Spring Sale Collections",
     description: "Sale! Up to 50% off!",
-    img: "https://www.pexels.com/photo/blond-woman-in-summer-dress-and-blooming-tree-in-background-11494673&w=800",
+    img: "https://images.unsplash.com/photo-1592049322119-e6aca85ecb08?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c3ByaW5nJTIwY2xvdGhlc3xlbnwwfHwwfHx8Mg%3D%3D",
     url: "/",
     bg: "bg-gradient-to-r from-blue-50 to-yellow-50",
   },
-];
+]; 
 
 const Slider = () => {
 
@@ -64,7 +64,7 @@ return () => clearInterval(interval);
 
           {/* image container */}
           <div className="h-1/2 xl:w-1/2 xl:h-full relative">
-            <Image src={slide.img} alt="" fill sizes="100%" className="object-cover"/>
+            <Image src={slide.img} alt="" fill sizes="100%" className="object-contain"/>
           </div>
         </div>
       )))}

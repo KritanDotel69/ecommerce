@@ -2,9 +2,6 @@
 
 import Image from "next/image"
 
-
-
-
 const CartModel = () => {
 
 const cartItems = true
@@ -22,7 +19,7 @@ const cartItems = true
       <div className="flex flex-col gap-8">
         {/* {items1} */}
       <div className=" flex gap-4">
-    <Image src="https://www.pexels.com/photo/a-street-with-a-tree-in-bloom-and-people-walking-27200209" alt=""  width={72} height={96}  className=" object-cover rounded-md"/> 
+    <Image src="https://images.unsplash.com/photo-1613338761569-735c3fc68699?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjI0fHxjbG90aGVzfGVufDB8fDB8fHwy" alt=""  width={72} height={96}  className=" object-cover rounded-md"/> 
         <div className=" flex flex-col justify-between w-full">
           {/* {top} */}
           <div className="">
@@ -46,7 +43,7 @@ const cartItems = true
 
         {/* {items2} */}
       <div className=" flex gap-4">
-      <Image src="https://www.pexels.com/photo/a-street-with-a-tree-in-bloom-and-people-walking-27200209/" alt="" width={72} height={96}  className=" object-cover rounded-md"/> 
+      <Image src="https://images.unsplash.com/photo-1671275422508-b2b05edae97a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjI1fHxjbG90aGVzfGVufDB8fDB8fHwy" alt="" width={72} height={96}  className=" object-cover rounded-md"/> 
         <div className=" flex flex-col justify-between w-full">
           {/* {top} */}
           <div className="">
