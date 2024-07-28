@@ -84,12 +84,12 @@ function Footer() {
       <div className=" flex flex-col gap-8 md:flex-row">
         <div className="">
           <span className='text-gray-500 mr-4'>Language</span>
-          <span className='font-medium'>NEPAL | ENGLISH</span>
+          <span className='font-medium'>NEPALI | ENGLISH</span>
         </div>
 
         <div className="">
           <span className='text-gray-500 mr-4'>Currency</span>
-          <span className='font-medium'>$ USD</span>
+          <span className='font-medium'>$USD / Rupees</span>
         </div>
       </div>
     </div>
